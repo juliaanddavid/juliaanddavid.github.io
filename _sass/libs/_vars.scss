@@ -46,6 +46,7 @@
   $grey: #777777;
   $redrocks: rgb(116,26,21);
   $redrockslight: rgb(174,93,95);
+  $redrocksmed: rgb(164,73,65);
 
 // Palette.
 	$palette: (
@@ -59,7 +60,7 @@
 		border2-bg:			rgba(144,144,144,0.5),
 
 		accent1: (
-			bg:				$redrockslight,
+			bg:				radial-gradient($redrockslight, $redrocksmed),
 			fg-bold:		#ffffff,
 			fg:				mix($redrockslight, #ffffff, 25%),
 			fg-light:		mix($redrockslight, #ffffff, 40%),
