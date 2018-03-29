@@ -8,7 +8,7 @@ Favicon by [Noah Camp from the Noun Project][6].
 
 ## Local Development
 ```
- gem install
+ bundle install
  bundle exec jekyll serve
 ```
 
